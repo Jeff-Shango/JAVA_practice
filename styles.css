@@ -1,0 +1,58 @@
+html {
+    background-color: burlywood;
+}
+
+/* title header section */
+.title {
+    border-block-style: double;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    font-size: 50px;
+    padding-left: 280px;
+}
+
+li {
+    width: 100%;
+}
+
+.bannerContainer {
+    display: flex;    
+    text-indent: 600px;
+    font-size: 40px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    border-style: double;
+}
+
+.ftHeader {
+    font-size: 65px;
+    text-align: center;
+}
+
+.fortune-area {
+    text-align: center;
+    border-style: dashed;
+    padding: 110px;
+}
+
+.fortunes {
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.ftButton {
+    width: 50%;
+    margin-left: 25%;
+    padding: 40px;
+    text-align: center;
+    font-size: 60px;
+}
