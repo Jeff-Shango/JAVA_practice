@@ -1,8 +1,14 @@
 html {
-    background-color: burlywood;
+    background-image: url("background.jpg");
+    color: white;
 }
 
 /* title header section */
+
+a:visited {
+    color: white;
+    
+}
 .title {
     border-block-style: double;
     text-align: center;
@@ -20,10 +26,16 @@ li {
     width: 100%;
 }
 
+.quoteGen {
+    padding: 40px 60px;
+}
+
 .bannerContainer {
-    display: flex;    
-    text-indent: 600px;
+    display: inline-flex;    
+    text-indent: 60px;
     font-size: 40px;
+    width: 100%;
+    border-style: dotted;
 }
 
 .container {
@@ -44,7 +56,7 @@ li {
 }
 
 .fortunes {
-    font-size: 30px;
+    font-size:70px;
     width: 100%;
     height: 100%;
 }
